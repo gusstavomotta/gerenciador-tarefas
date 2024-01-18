@@ -71,17 +71,12 @@ if (!isset($_SESSION['tasks'])) {
 
                 echo "<ul>";
             }
-
-
             ?>
-
-
         </div>
         <div class="footer">
             <p>Desenvolvido por Gustavo Motta/ Com uma ajudinha né kkkk</p>
         </div>
     </div>
-
 </body>
 
 </html>

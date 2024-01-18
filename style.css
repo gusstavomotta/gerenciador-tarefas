@@ -1,42 +1,33 @@
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-
-
     background: #f3f3f5;
     color: #333;
     font-family: 'ubuntu', sans-serif;
 }
 
 a {
-
     text-decoration: none;
     color: #fff;
 }
 
 a:link {
-
     text-decoration: none;
 }
 
-
 a:visited {
-
     text-decoration: none;
 }
 
 a:hover {
-
     font-weight: bold;
 }
 
 .container {
-
     background: #fff;
     max-width: 450px;
     margin-top: 5%;
@@ -47,7 +38,6 @@ a:hover {
 }
 
 .header {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,21 +47,18 @@ a:hover {
 }
 
 .form {
-
     margin-top: 4px;
     margin-bottom: 4px;
 
 }
 
 .form form {
-
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .form label {
-
     font-weight: bold;
     margin-top: 4px;
     margin-bottom: 4px;
@@ -79,8 +66,6 @@ a:hover {
 }
 
 .form input {
-
-
     height: 32px;
     margin-top: 4px;
     margin-bottom: 4px;
@@ -93,12 +78,10 @@ a:hover {
 }
 
 .form input:focus {
-
     background: #f3f3f5;
 }
 
 .form button {
-
     background: #229954;
     height: 32px;
     border: none;
@@ -106,37 +89,30 @@ a:hover {
     color: #fff;
     margin-top: 4px;
     margin-bottom: 4px;
-
     transition: background 0.3s;
 
 }
 
 .form button:hover {
-
     background: #018d3e;
 }
 
 .separator {
-
     background: #bbb;
     height: 2px;
     border-radius: 1px;
 }
 
 .list-tasks {
-
     margin-top: 12px;
     margin-bottom: 12px;
-
 }
 
 .list-tasks ul {
-
     list-style: none;
 }
 
 .list-tasks ul li {
-
     background: #00c3ff;
     height: 54px;
     border-radius: 4px;
@@ -144,18 +120,13 @@ a:hover {
     margin-top: 4px;
     margin-bottom: 4px;
     padding: 12px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     transition: background 0.3s;
-
-
 }
 
 .list-tasks ul li:hover {
-
     background: #52b7ff;
 }
 
@@ -167,63 +138,48 @@ a:hover {
     padding: 0 12px;
     color: #fff;
     transition: background 0.3s;
-
-
 }
 
 .btn-clear:hover {
     background: #ffa99e;
-
-
 }
 
-
 .footer {
-
     background: #f0f0f5;
     border-radius: 4px;
     padding: 12px;
-
 }
 
 .footer p {
-
     color: #999;
     font-size: 12px;
 }
 
 .details-container {
-
     background: #fff;
     max-width: 700px;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     padding: 12px;
-
 }
 
 .row {
-
     display: flex;
     justify-content: space-between;
     padding: 12px;
-
 }
 
 .details {
-
     width: 300px;
     border: 1px solid #f0f0f5;
     border-radius: 4px;
     margin-right: 4px;
     margin-right: 8px;
     padding: 16px;
-
 }
 
 .details dt dl {
-
     margin-top: 4px;
     margin-bottom: 4px;
     font-weight: bold;
@@ -232,11 +188,9 @@ a:hover {
 
 
 .details dl dd {
-
     margin-top: 4px;
     margin-bottom: 12px;
     color: #999;
-
 }
 
 .image {
@@ -246,12 +200,9 @@ a:hover {
     margin-right: 8px;
     margin-right: 8px;
     padding: 16px;
-
 }
 
 .image img {
-
     max-width: 100%;
     height: auto;
-
 }

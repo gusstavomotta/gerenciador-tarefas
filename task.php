@@ -13,7 +13,6 @@ if (isset($_POST['task_name'])) {
 
             move_uploaded_file($_FILES['task_image']['tmp_name'], $dir . $file_name);
         }
-
         $data = [
 
             'task_name' => $_POST['task_name'],
@@ -22,22 +21,16 @@ if (isset($_POST['task_name'])) {
             'task_image' => $file_name
 
         ];
-
-
-
         array_push($_SESSION['tasks'], $data);
         unset($_POST['task_name']);
         unset($_POST['task_description']);
         unset($_POST['task_date']);
-
-
         header('Location:index.php');
     } else {
         $_SESSION['message'] = 'A tarefa precisa ter um nome!';
         header('Location:index.php');
     }
 }
-
 
 if (isset($_GET['key'])) {
 
